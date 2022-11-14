@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-13T09:09:56Z" name="Orange_HRM TestSuite" finished-at="2022-11-13T09:10:12Z" duration-ms="15229">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunners.TestAdminLogin@3571b748]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-11-13T09:09:56Z" name="Admin Login Test" finished-at="2022-11-13T09:10:12Z" duration-ms="15229">
+      <class name="testrunners.TestAdminLogin">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testrunners.TestAdminLogin@3571b748]" started-at="2022-11-13T09:09:56Z" name="setUpClass" finished-at="2022-11-13T09:09:57Z" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunners.TestAdminLogin@3571b748]" started-at="2022-11-13T09:09:57Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-11-13T09:10:11Z" duration-ms="14473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunners.TestAdminLogin@3571b748]" started-at="2022-11-13T09:10:11Z" name="tearDownClass" finished-at="2022-11-13T09:10:12Z" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunners.TestAdminLogin -->
+    </test> <!-- Admin Login Test -->
+  </suite> <!-- Orange_HRM TestSuite -->
+</testng-results>
